@@ -24,10 +24,10 @@
     "workbox-streams": "^5.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
@@ -49,5 +49,16 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://erwanwan.github.io/react-pwa"
+  "homepage": "https://erwanwan.github.io/react-pwa",
+  "devDependencies": {
+    "customize-cra": "^1.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "less-loader": "^6.2.0",
+    "postcss-px-to-viewport": "^1.1.1",
+    "postcss-viewport-units": "^0.1.6",
+    "postcss-write-svg": "^3.0.1",
+    "prettier": "^2.4.1",
+    "react-app-rewired": "^2.1.8"
+  }
 }
